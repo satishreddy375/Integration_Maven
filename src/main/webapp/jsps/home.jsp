@@ -4,22 +4,22 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-<title>MithunTechnologies- Home Page</title>
-<link href="images/mithunlogo.jpg" rel="icon">
+<title>P2pro Technologies- Home Page</title>
+<link href="images/P2pro-logo.jpg" rel="icon">
 </head>
 </head>
 <body>
-<h1 align="center">Welcome to Mithun Software Solutions. Bengaluru,Karnataka </h1>
-<h1 align="center"> Mithun Software Solutions- Very Good Training center for DevOps with AWS in Maratha Halli Bangalore India and also for Job Assitance Job Support also...Teaching Real Time scnerios</h1>
+<h1 align="center">Welcome to P2pro Technology Solution Pvt Ltd. Hyderabad, Telangana </h1>
+<h1 align="center"> P2pro Technology Solution Pvt Ltd- Very Good Training center for DevOps with AWS in Kondapur and also for Job Assitance Job Support also...Teaching Real Time scnerios</h1>
 <hr>
 <br>
 	<h1><h3> Server Side IP Address </h3><br>
 
-<% 
+<%
 String ip = "";
 InetAddress inetAddress = InetAddress.getLocalHost();
 ip = inetAddress.getHostAddress();
-out.println("Server Host Name :: "+inetAddress.getHostName()); 
+out.println("Server Host Name :: "+inetAddress.getHostName());
 %>
 <br>
 <%out.println("Server IP Address :: "+ip);%>
@@ -31,24 +31,24 @@ out.println("Server Host Name :: "+inetAddress.getHostName());
 <hr>
 <div style="text-align: center;">
 	<span>
-		<img src="images/mithunlogo.jpg" alt="" width="100">
+		<img src="images/P2pro-logo.jpg" alt="" width="100">
 	</span>
 	<span style="font-weight: bold;">
-		Mithun Technologies, 
-		Martha Halli, Above ICICI Bank, Beside Meghana Foods,
-		Bangalore,
-		+91-9980923226
-		devopstrainingblr@gmail.com
+		P2pro Technology Solution Pvt Ltd,
+		Doctors Pride Apartment, Ground floor, Shriram colony, Madhapur,
+		Hyderabad, Telangana 500081,
+		+91-9491442131
+		p2protech@gmail.com
 		<br>
-		<a href="mailto:devopstrainingblr@gmail.com">Mail to Mithun Technologies</a>
+		<a href="p2protech@gmail.com">Mail to P2pro Technology Solution Pvt Ltd</a>
 	</span>
 </div>
 <hr>
 	<p> Service : <a href="services/employee/getEmployeeDetails">Get Employee Details </p>
 <hr>
 <hr>
-<p align=center>Mithun Technologies - Consultant, Training, Development Center.</p>
-<p align=center><small>Copyrights 2019 by <a href="http://mithuntechnologies.com/">Mithun Technologies</a> </small></p>
+<p align=center>P2pro Technology Solution Pvt Ltd - Consultant, Training, Development Center.</p>
+<p align=center><small>Copyrights 2021 by <a href="http://p2protech.com/">P2pro Technology Solution Pvt Ltd</a> </small></p>
 
 </body>
 </html>
