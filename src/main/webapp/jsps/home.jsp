@@ -10,7 +10,7 @@
 </head>
 <body>
 <h1 align="center">Welcome to P2pro Technology Solution Pvt Ltd. Hyderabad, Telangana </h1>
-<h1 align="center"> P2pro Technology Solution Pvt Ltd- Very Good Training center for DevOps with AWS in Kondapur and also for Job Assitance Job Support also...Teaching Real Time scnerios</h1>
+<h1 align="center"> P2pro Technology Solution Pvt Ltd- Very Good Training center for DevOps with AWS, Digital Marketing & Cyber Security's as well in Madhapur and we also providr Job Assitance Job Support....Teaching Real Time scnerios in all the technologies</h1>
 <hr>
 <br>
 	<h1><h3> Server Side IP Address </h3><br>
