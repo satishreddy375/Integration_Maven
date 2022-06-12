@@ -98,13 +98,13 @@
 	    <repository>
 	      <id>nexus</id>
 	      <name>P2pro Technologies Releases Nexus Repository</name>
-	      <url>http://54.255.174.111:8081/repository/flipkart-release/</url>
+	      <url>http://52.66.255.12:9000/p2pro/repository/amazon-release-p2pro/</url>
 	    </repository>
 
 	    <snapshotRepository>
 	      <id>nexus</id>
 	      <name>P2pro Technologies Snapshot Nexus Repository </name>
-	      <url>http://54.255.174.111:8081/repository/flipkart-snapshot/</url>
+	      <url>http://52.66.255.12:9000/p2pro/repository/amazon-snapshot-p2pro-latest/</url>
 	    </snapshotRepository>
 
 	</distributionManagement>
