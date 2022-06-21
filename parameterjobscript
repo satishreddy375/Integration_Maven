@@ -1,0 +1,22 @@
+pipeline{
+    agent any
+parameters{
+choice(name: 'BranchName', choices: ['master', 'development', 'test'], description: 'Branchesnamesss')
+string(name: 'Name', defaultValue: 'charan', description: 'testingthejob')
+}
+
+stages{
+stage('Gitparameters'){
+steps{
+sh "echo The name is: ${params.Name}"
+}
+}
+stage('GitCheckoutstage'){
+    steps{
+        git branch: "${params.BranchName}", credentialsId: '9aad10da-e742-413a-a2f6-ce6a8b007f70', url: 'https://github.com/p2pro-DevOps/maven-web-application.git'
+    
+}
+}
+}
+}
+
