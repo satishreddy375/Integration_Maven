@@ -21,7 +21,7 @@
 		<spring.version>5.1.2.RELEASE</spring.version>
 		<junit.version>4.11</junit.version>
 		<log4j.version>1.2.17</log4j.version>
-		<sonar.host.url>http://54.144.201.13:9000/</sonar.host.url>
+		<sonar.host.url>http://54.147.0.183:9000/</sonar.host.url>
 		<sonar.login>admin</sonar.login>
 		<sonar.password>admin</sonar.password>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -98,13 +98,13 @@
 	    <repository>
 	      <id>nexus</id>
 	      <name>P2pro Technologies Releases Nexus Repository</name>
-	      <url>http://3.87.169.202:9080/nexus/repository/amazon-release/</url>
+	      <url>http://54.160.192.31:9080/nexus/repository/amazon-release/</url>
 	    </repository>
 
 	    <snapshotRepository>
 	      <id>nexus</id>
 	      <name>P2pro Technologies Snapshot Nexus Repository </name>
-	      <url>http://3.87.169.202:9080/nexus/repository/amazon-snapshot-new/</url>
+	      <url>http://54.160.192.31:9080/nexus/repository/amazon-snapshot-new/</url>
 	    </snapshotRepository>
 
 	</distributionManagement>
