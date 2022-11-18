@@ -98,13 +98,13 @@
 	    <repository>
 	      <id>nexus</id>
 	      <name>P2pro Technologies Releases Nexus Repository</name>
-	      <url>http://13.235.103.136:9080/p2pro/repository/amazon-release/</url>
+	      <url>http://23.22.138.141:8081/p2pro/repository/amaozn-relese/</url>
 	    </repository>
 
 	    <snapshotRepository>
 	      <id>nexus</id>
 	      <name>P2pro Technologies Snapshot Nexus Repository </name>
-	      <url>http://13.235.103.136:9080/p2pro/repository/amazon-snapshot/</url>
+	      <url>http://23.22.138.141:8081/p2pro/repository/amazon-Snapshot/</url>
 	    </snapshotRepository>
 
 	</distributionManagement>
