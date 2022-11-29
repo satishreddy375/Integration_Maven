@@ -104,7 +104,7 @@
 	    <snapshotRepository>
 	      <id>nexus</id>
 	      <name>P2pro Technologies Snapshot Nexus Repository </name>
-	      <url<http://43.205.118.124:8081/repository/amazon_snapshot/</url>
+	      <url>http://43.205.118.124:8081/repository/amazon_snapshot/</url>
 	    </snapshotRepository>
 
 	</distributionManagement>
