@@ -1,5 +1,7 @@
 pipeline{
-    agent any
+    agent {
+    label "node1"
+    }
 parameters{
 choice(name: 'BranchName', choices: ['master', 'development', 'test'], description: 'Branchesnamesss')
 string(name: 'Name', defaultValue: 'charan', description: 'testingthejob')
