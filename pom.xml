@@ -5,7 +5,7 @@
 	<groupId>com.mt</groupId>
 	<artifactId>maven-web-application</artifactId>
 	<packaging>war</packaging>
-	<version>0.0.6</version>
+	<version>0.0.1</version>
 
 	<name>maven-web-application</name>
 
@@ -97,14 +97,14 @@
 
 	    <repository>
 	      <id>nexus</id>
-	      <name>P2pro Technologies Releases Nexus Repository</name>
-	      <url>http://3.111.41.135:9091/p2pro/repository/amazon-release/</url>
+	      <name>Arcadmy Technologies Releases Nexus Repository</name>
+	      <url>http://3.143.110.241:9090/arcadmy/repository/amazon-release/</url>
 	    </repository>
 
 	    <snapshotRepository>
 	      <id>nexus</id>
-	      <name>P2pro Technologies Snapshot Nexus Repository </name>
-	      <url>http://3.111.41.135:9091/p2pro/repository/amazon-snapshot/</url>
+	      <name>Arcadmy Technologies Snapshot Nexus Repository </name>
+	      <url>http://3.143.110.241:9090/arcadmy/repository/amazon-snapshot/</url>
 	    </snapshotRepository>
 
 	</distributionManagement>
