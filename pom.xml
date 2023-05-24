@@ -21,7 +21,7 @@
 		<spring.version>5.1.2.RELEASE</spring.version>
 		<junit.version>4.11</junit.version>
 		<log4j.version>1.2.17</log4j.version>
-		<sonar.host.url>http://3.145.210.8:9090/</sonar.host.url>
+		<sonar.host.url>http://13.59.94.212:9090/</sonar.host.url>
 		<sonar.login>admin</sonar.login>
 		<sonar.password>Arcadmy</sonar.password>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -98,13 +98,13 @@
 	    <repository>
 	      <id>nexus</id>
 	      <name>Arcadmy Technologies Releases Nexus Repository</name>
-	      <url>http://3.129.68.141:9090/arcadmy/repository/amazon-release/</url>
+	      <url>http://3.145.216.53:9090/arcadmy/repository/amazon-release/</url>
 	    </repository>
 
 	    <snapshotRepository>
 	      <id>nexus</id>
 	      <name>Arcadmy Technologies Snapshot Nexus Repository </name>
-	      <url>http://3.129.68.141:9090/arcadmy/repository/amazon-snapshot/</url>
+	      <url>http://3.145.216.53:9090/arcadmy/repository/amazon-snapshot/</url>
 	    </snapshotRepository>
 
 	</distributionManagement>
