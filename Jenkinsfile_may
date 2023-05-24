@@ -1,0 +1,36 @@
+node
+{
+
+def mavenHome = tool name: "maven_3.9.2"
+
+stage("github"){
+
+    git branch: 'development', credentialsId: 'f71e6681-bd9e-4bce-b2d8-b7c6d66165b9', url: 'https://github.com/p2pro-DevOps/maven-web-application.git'
+}
+
+stage ("maven_build"){
+    sh "${mavenHome}/bin/mvn clean package"
+}
+
+
+stage ("sonar"){
+ sh "${mavenHome}/bin/mvn sonar:sonar"
+}
+
+stage ("nexus"){
+    sh "${mavenHome}/bin/mvn deploy"
+}
+
+
+stage ("tomcat"){
+    
+    sshagent(['e0e69279-0cd6-417a-a0a8-b1760c661f35']) {
+    sh "scp -o StrictHostKeyChecking=no target/maven-web-application.war ec2-user@18.188.51.8:/opt/apache-tomcat-9.0.74/webapps"
+}
+}
+
+
+}
+
+
+
