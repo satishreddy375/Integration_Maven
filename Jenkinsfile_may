@@ -1,4 +1,4 @@
-node('slave1_amazon_node')
+node('slave2_server')
 {
 
 def mavenHome = tool name: "maven_3.9.2"
