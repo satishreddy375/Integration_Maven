@@ -1,4 +1,4 @@
-node
+node('slave1_amazon_node')
 {
 
 def mavenHome = tool name: "maven_3.9.2"
@@ -12,7 +12,7 @@ stage ("maven_build"){
     sh "${mavenHome}/bin/mvn clean package"
 }
 
-
+/*
 stage ("sonar"){
  sh "${mavenHome}/bin/mvn sonar:sonar"
 }
@@ -28,7 +28,7 @@ stage ("tomcat"){
     sh "scp -o StrictHostKeyChecking=no target/maven-web-application.war ec2-user@18.188.51.8:/opt/apache-tomcat-9.0.74/webapps"
 }
 }
-
+*/
 
 }
 
