@@ -3,7 +3,7 @@ pipeline{
 agent any
 
 tools{
-maven 'maven3.8.2'
+maven 'Maven_393'
 
 }
 
@@ -20,7 +20,7 @@ stages{
 
   stage('CheckOutCode'){
     steps{
-    git branch: 'development', credentialsId: '957b543e-6f77-4cef-9aec-82e9b0230975', url: 'https://github.com/p2protech/maven-web-application-1.git'
+      git credentialsId: 'Git', url: 'https://github.com/p2pro-DevOps/maven-web-application.git'
 
         }
   }
@@ -50,7 +50,8 @@ stages{
   }
   }
   }
-  */
+
+
 }//Stages Closing
 
 post{
@@ -74,3 +75,5 @@ post{
 
 }//Pipeline closing
 
+
+*/
