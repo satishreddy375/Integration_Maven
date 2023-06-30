@@ -69,9 +69,9 @@ post{
           body: "Pipeline Build is over .. Build # is ..${env.BUILD_NUMBER} and Build status is.. ${currentBuild.result}.",
           replyTo: 'p2protech@gmail.com'
  }
-
-}
 */
+}
+
 
 }//Pipeline closing
 
