@@ -1,6 +1,6 @@
 pipeline{
 
-agent any
+agent charan
 
 tools{
 maven 'Maven_393'
