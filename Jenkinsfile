@@ -1,7 +1,10 @@
 pipeline{
 
-agent charan
-
+agent{ 
+  
+  label "charan"
+  
+}
 tools{
 maven 'Maven_393'
 
