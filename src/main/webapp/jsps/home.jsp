@@ -10,7 +10,7 @@
 </head>
 <body>
 <h1 align="center">Welcome to Arcadmy Technology Solution Pvt Ltd. Hyderabad, Telangana </h1>
-<h1 align="center"> "Arcadmy Technology Solution Pvt Ltd-AUG 17th aug","This job is triggred from WebHooks_demo is done" Very Good Training center for DevOps with AWS....Teaching Real Time scnerios in all the technologies</h1>
+<h1 align="center"> "Arcadmy Technology Solution Pvt Ltd-AUG 18th aug","This job is triggred from WebHooks_demo is done" Very Good Training center for DevOps with AWS....Teaching Real Time scnerios in all the technologies</h1>
 <hr>
 <br>
 	<h1><h3> Server Side IP Address </h3><br>
