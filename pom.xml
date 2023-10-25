@@ -98,13 +98,13 @@
 	    <repository>
 	      <id>nexus</id>
 	      <name>Arcadmy Technologies Releases Nexus Repository</name>
-	      <url>http://13.127.157.230:8081/repository/maven-releases/</url>
+	      <url>http://65.1.100.20:8081/repository/maven-releases/</url>
 	    </repository>
 
 	    <snapshotRepository>
 	      <id>nexus</id>
 	      <name>Arcadmy Technologies Snapshot Nexus Repository </name>
-	      <url>http://13.127.157.230:8081/repository/maven-snapshots/</url>
+	      <url>http://:65.1.100.20:8081/repository/maven-snapshots/</url>
 	    </snapshotRepository>
 
 	</distributionManagement>
