@@ -97,14 +97,14 @@
 
 	    <repository>
 	      <id>nexus</id>
-	      <name>Arcadmy Technologies Releases Nexus Repository</name>
-	      <url>http://13.201.33.37:8081/repository/maven-releases</url>
+	      <name>Nexus Repository</name>
+	      <url>http://13.201.33.37:8081/repository/maven-releases/</url>
 	    </repository>
 
 	    <snapshotRepository>
 	      <id>nexus</id>
-	      <name>Arcadmy Technologies Snapshot Nexus Repository </name>
-	      <url>http://:13.201.33.37:8081/repository/maven-snapshots/</url>
+	      <name>Snapshot Nexus Repository </name>
+	      <url>http://13.201.33.37:8081/repository/maven-snapshots/</url>
 	    </snapshotRepository>
 
 	</distributionManagement>
