@@ -7,6 +7,10 @@
 	<packaging>war</packaging>
 	<version>1.0.1-SNAPSHOT</version>
 
+	<groupId>com.mt</groupId>
+	<artifactId>maven-web-application</artifactId>
+	<packaging>war</packaging>
+	<version>1.0.1</version>
 	<name>maven-web-application</name>
 
 	<description>Maven Web Project for Java Project</description>
